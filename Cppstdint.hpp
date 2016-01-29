@@ -9,6 +9,11 @@
  * template specialization will need to be used
  *      Int<sizeof(void*) * 8, UNSIGNED>::type
  *
+ * Templates rarely every make any visible change to a program's functionality
+ * that cannot be achieved by simply typing different code.  But keeping true to
+ * the template philosophy, this class is intended to be a suitable replacement
+ * for different integral specializations
+ *
  * Written by Aaryaman Sagar
  * rmn100@gmail.com
  */
