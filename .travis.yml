@@ -1,5 +1,4 @@
 language: cpp
 
 script:
-  - g++ -std=c++14 -Wall -Werror -Wvla -Wextra -pedantic test.cpp -o cppstdint-test
-  - ./cppstdint-test
+  - g++ -std=c++14 -Wall -Werror -Wvla -Wextra -pedantic test.cpp -o cppstdint-test && ./cppstdint-test
