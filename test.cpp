@@ -19,6 +19,7 @@ int main() {
         (decltype(int_handle)) (void*)(0x444);
     assert(int_handle == 1092);
 
+
     // demonstration of printing the maximum primitive int value
     Int<MAX, SignType::UNSIGNED>::type maximum_primitive_int =
         std::numeric_limits<decltype(maximum_primitive_int)>::max();
