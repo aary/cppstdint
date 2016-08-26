@@ -41,4 +41,4 @@ matrix:
       env: COMPILER=clang++-3.7
 
 script:
-  - $COMPILER -std=c++14 -Wall -Werror -Wvla -Wextra -pedantic -O3 test.cpp && ./a.out
+  - g++ -std=c++14 -Wall -Werror -Wvla -Wextra -pedantic -O3 test.cpp && ./a.out

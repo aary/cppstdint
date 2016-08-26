@@ -25,7 +25,6 @@ int main() {
     auto max_number =
         std::numeric_limits<decltype(maximum_primitive_int)>::max();
     assert(maximum_primitive_int == max_number);
-    assert(false);
 
     return 0;
 }
